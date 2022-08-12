@@ -163,7 +163,7 @@ using
 
 void Help()
 {
-    Console.WriteLine("help Samples:");
+    Console.WriteLine("Help Samples:");
 
     if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
     {
