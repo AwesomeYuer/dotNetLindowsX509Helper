@@ -1,4 +1,4 @@
-# LindowsX509Helper
+# dotNetLindowsX509Helper
 
 ## Command Line Usage:
 
