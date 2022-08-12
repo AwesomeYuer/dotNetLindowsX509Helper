@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "ConsoleApp1": {
+      "commandName": "Project",
+      "commandLineArgs": "-c \"C:\\Users\\xiyueyu\\Downloads\\mixmigkveastus-prod-cert-aad-mixmig-dps-mp-microsoft-com-20220623\\chinacpp-keyvault-int-certificate-aad-20220719.pfx\""
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}
