@@ -5,37 +5,37 @@
 ### Linux:
 #### Add:
 ```
-dotnet LindowsX509Helper.dll --add "./certificateFileName"
+dotnet dotNetLindowsX509Helper.dll --add "./certificateFileName"
 ```
 Or:
 ```
-dotnet LindowsX509Helper.dll -a "./certificateFileName"
+dotnet dotNetLindowsX509Helper.dll -a "./certificateFileName"
 ```
 #### Remove:
 ```
-dotnet LindowsX509Helper.dll --remove "AwesomeYuer.Microshaoft.com"
+dotnet dotNetLindowsX509Helper.dll --remove "AwesomeYuer.Microshaoft.com"
 ```
 Or:
 ```
-dotnet LindowsX509Helper.dll -r "AwesomeYuer.Microshaoft.com"
+dotnet dotNetLindowsX509Helper.dll -r "AwesomeYuer.Microshaoft.com"
 ```
 
 ### Windows:
 #### Add:
 ```
-LindowsX509Helper --add ".\certificateFileName"
+dotNetLindowsX509Helper --add ".\certificateFileName"
 ```
 Or:
 ```
-LindowsX509Helper -a ".\certificateFileName"
+dotNetLindowsX509Helper -a ".\certificateFileName"
 ```
 #### Remove:
 ```
-LindowsX509Helper --remove "AwesomeYuer.Microshaoft.com"
+dotNetLindowsX509Helper --remove "AwesomeYuer.Microshaoft.com"
 ```
 Or:
 ```
-LindowsX509Helper -r "AwesomeYuer.Microshaoft.com"
+dotNetLindowsX509Helper -r "AwesomeYuer.Microshaoft.com"
 ```
 
 ## X509Store Location:
