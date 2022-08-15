@@ -6,12 +6,12 @@
                                         (
                                             string message
                                             , ConsoleColor foregroundColor = ConsoleColor.Red
-                                            , params object?[]? arg
+                                            , params object?[]? args
                                         )
         {
             var orininalForegroundColor = Console.ForegroundColor;
             Console.ForegroundColor = foregroundColor;
-            Console.WriteLine(message, arg);
+            Console.WriteLine(message, args);
             Console.ForegroundColor = orininalForegroundColor;
         }
     }
