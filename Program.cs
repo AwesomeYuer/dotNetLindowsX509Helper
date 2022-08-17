@@ -15,7 +15,7 @@ if (args == null || args.Length < 1)
     Help();
     return;
 }
-string certificateFileName = String.Empty;
+string certificateFileName = string.Empty;
 using
     (
         var x509Store = new X509Store
