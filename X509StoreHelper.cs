@@ -13,9 +13,10 @@
                     !string.IsNullOrWhiteSpace(subjectName)
                 )
             {
-                if (subjectName.StartsWith("CN="))
+                var s = "CN=";
+                if (subjectName.StartsWith(s))
                 {
-                    subjectName = subjectName["CN=".Length..];
+                    subjectName = subjectName[s.Length..];
                 }
                 try
                 {
