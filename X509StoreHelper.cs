@@ -57,7 +57,8 @@
                 }
 
             }
-            return x509Certificate2;
+            return
+                x509Certificate2;
         }
     }
 }
