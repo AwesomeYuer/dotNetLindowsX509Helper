@@ -29,24 +29,24 @@
                     var x509FindType = X509FindType
                                                 .FindBySubjectName;
                     var x509CertificateCollection = @this
-                                                            .Certificates
-                                                            .Find
-                                                                (
-                                                                    X509FindType.FindByTimeValid
-                                                                    , DateTime.UtcNow
-                                                                    , false
-                                                                )
-                                                            .Find
-                                                                (
-                                                                    x509FindType
-                                                                    , subjectName
-                                                                    , false
-                                                                );
+                                                        .Certificates
+                                                        .Find
+                                                            (
+                                                                X509FindType.FindByTimeValid
+                                                                , DateTime.UtcNow
+                                                                , false
+                                                            )
+                                                        .Find
+                                                            (
+                                                                x509FindType
+                                                                , subjectName
+                                                                , false
+                                                            );
                     x509Certificate2 = x509CertificateCollection
-                                                            .Cast<X509Certificate2>()
-                                                            .OrderByDescending
-                                                                    (x => x.NotBefore)
-                                                            .FirstOrDefault()!;
+                                                        .Cast<X509Certificate2>()
+                                                        .OrderByDescending
+                                                                (x => x.NotBefore)
+                                                        .FirstOrDefault()!;
                 }
                 finally
                 {
